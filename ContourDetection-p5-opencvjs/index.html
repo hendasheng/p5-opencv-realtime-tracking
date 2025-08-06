@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>ContourDetection-opencvjs</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/addons/p5.dom.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tweakpane@3.1.5/dist/tweakpane.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+  
+    <script>
+        window.Module = {
+            loaded: false,
+            print: console.log,
+            printErr: function (text) {
+                document.getElementById('status').innerHTML = text;
+                console.error(text);
+            },
+            setStatus: function (text) {
+                document.getElementById('status').innerHTML = text;
+                console.log(text);
+            },
+            onRuntimeInitialized: function () {
+                document.getElementById('status').innerHTML = 'Loaded';
+                this.loaded = true;
+                // it would be better if we created the sketch at this point
+            }
+        };
+    </script>
+    <script async src="cv.js"></script>
+</head>
+
+<body>
+    <div id="status"></div>
+    <!-- <script src="sketch_01_base.js"></script> -->
+    <script src="sketch_02_line.js"></script>
+</body>
+
+</html>
