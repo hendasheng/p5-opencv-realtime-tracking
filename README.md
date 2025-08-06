@@ -1,6 +1,6 @@
 # p5-opencv-realtime-tracking
 
-# realtime-tracking-p5-opencv
+[中文](./README.md) | [English](./README.en.md)
 
 > 基于 **p5.js** + **OpenCV.js** + **Tweakpane** 的浏览器端实时视觉追踪实验。
 
