@@ -2,15 +2,11 @@
 
 [中文](./README.md) | [English](README.en.md)
 
-> A browser-based real-time visual tracking experiment built with **p5.js**, **OpenCV.js**, and **Tweakpane**.
-
-This project is based on [kylemcdonald/cv-examples](https://github.com/kylemcdonald/cv-examples), a collection of computer vision examples developed for p5.js, covering topics from thresholding, contour detection to optical flow and face tracking.
-
-My work extends the OpenCV detection data visually and introduces parameter controls to enhance real-time interactivity, making it more experimental and extensible.
+A browser-based real-time visual tracking experiment built with **p5.js**, **OpenCV.js**.
 
 ---
 
-## ✨ Features
+## Features
 
 - **Real-time webcam video capture and display**  
 - **Tweakpane panel** for flexible parameter adjustment (blur radius, threshold, etc.)  
@@ -19,7 +15,7 @@ My work extends the OpenCV detection data visually and introduces parameter cont
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the repository
 
@@ -39,7 +35,7 @@ This project requires webcam access. Modern browsers restrict webcam and microph
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **p5.js**: for canvas rendering, video capture, and animation control  
 - **OpenCV.js**: for real-time computer vision processing based on OpenCV  
@@ -47,6 +43,8 @@ This project requires webcam access. Modern browsers restrict webcam and microph
 
 ---
 
-## 🙏 Acknowledgements & Sources
+## Acknowledgements & Sources
 
-This project is built upon [kylemcdonald/cv-examples](https://github.com/kylemcdonald/cv-examples), which provides extensive p5 + OpenCV.js examples including thresholding, contour detection, optical flow, face tracking, and more ([github.com](https://github.com/kylemcdonald/cv-examples?utm_source=chatgpt.com), [kylemcdonald.github.io](https://kylemcdonald.github.io/cv-examples/?utm_source=chatgpt.com)). My work mainly extends the functionality and improves the UI based on that foundation.
+The computer vision part of this project is based on [kylemcdonald/cv-examples](https://github.com/kylemcdonald/cv-examples), a collection of computer vision examples specifically developed for p5.js and JavaScript. It covers a wide range of topics including thresholding, contour detection, optical flow, and face tracking.
+
+My work extends the OpenCV detection data visually and introduces parameter controls to enhance real-time interactivity, making it more experimental and extensible.

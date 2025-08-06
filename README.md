@@ -2,16 +2,11 @@
 
 [中文](./README.md) | [English](./README.en.md)
 
-> 基于 **p5.js** + **OpenCV.js** + **Tweakpane** 的浏览器端实时视觉追踪实验。
-
-本项目起源于 [kylemcdonald/cv-examples](https://github.com/kylemcdonald/cv-examples)，这是一个专为 p5.js 开发的计算机视觉示例合集，涵盖从阈值处理、轮廓检测到光流、人脸跟踪等内容。
-
-我的工作是通过 opencv 检测数据在在视觉层面进行拓展，并引入参数控制增加实时交互性，使其更具实验性和可扩展性。
+基于 **p5.js** + **OpenCV.js** 的浏览器端实时视觉追踪实验。
 
 ---
 
-
-## ✨ 项目特性
+## 项目特性
 
 - **实时摄像头视频捕捉与显示**;
 - **Tweakpane 面板**自由调节参数（Blur 半径、Threshold 阈值等）;
@@ -20,7 +15,7 @@
 
 ---
 
-## 🚀 快速开始
+## 快速开始
 
 ### 1. 克隆仓库
 
@@ -36,11 +31,11 @@ cd realtime-tracking-p5-opencv
 **建议通过 VS Code 的 Live Server 插件启动项目，或者使用类似的本地服务器（如 `live-server`）以确保项目在安全上下文中运行。**
 
 - 安装 VS Code Live Server 插件后，点击编辑器右下角 “Go Live” 启动项目；
-- 推荐使用 **Chrome** 浏览器；
+- 推荐使用 Chrome 浏览器；
 
 ---
 
-## 🛠️ 技术栈说明
+## 技术栈说明
 
 - **p5.js**：用于 Canvas 渲染、视频捕获与动画控制
 - **OpenCV.js**：基于 OpenCV 提供实时计算机视觉处理功能
@@ -48,7 +43,9 @@ cd realtime-tracking-p5-opencv
 
 ---
 
-## 🙏 致谢与来源说明
+## 致谢与来源说明
 
-本项目基于 [kylemcdonald/cv-examples](https://github.com/kylemcdonald/cv-examples) 构建，该项目提供丰富的 p5 + OpenCV.js 示例，覆盖阈值、轮廓检测、光流、人脸跟踪等视觉功能 ([github.com](https://github.com/kylemcdonald/cv-examples?utm_source=chatgpt.com), [kylemcdonald.github.io](https://kylemcdonald.github.io/cv-examples/?utm_source=chatgpt.com))。我的工作主要是在其基础上进行功能扩展与界面优化。
+本项目计算机视觉部分源于 [kylemcdonald/cv-examples](https://github.com/kylemcdonald/cv-examples)，这是一个专为 p5.js 和 JavaScript 开发的计算机视觉示例合集，涵盖从阈值处理、轮廓检测到光流、人脸跟踪等内容。
+
+我的工作是通过 OpenCV 检测数据后，在视觉层面进行拓展，并引入参数控制增加实时交互性，使其更具实验性和可扩展性。
 
