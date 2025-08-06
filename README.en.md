@@ -37,9 +37,9 @@ This project requires webcam access. Modern browsers restrict webcam and microph
 
 ## Tech Stack
 
-- **p5.js**: for canvas rendering, video capture, and animation control  
-- **OpenCV.js**: for real-time computer vision processing based on OpenCV  
-- **Tweakpane**: a lightweight pane for dynamic parameter adjustments  
+- **p5.js**: for canvas rendering, video capture, and animation control;
+- **OpenCV.js**: for real-time computer vision processing based on OpenCV;  
+- **Tweakpane**: a lightweight pane for dynamic parameter adjustments;
 
 ---
 

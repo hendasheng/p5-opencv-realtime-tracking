@@ -36,9 +36,9 @@ cd realtime-tracking-p5-opencv
 
 ## 技术栈说明
 
-- **p5.js**：用于 Canvas 渲染、视频捕获与动画控制
-- **OpenCV.js**：基于 OpenCV 提供实时计算机视觉处理功能
-- **Tweakpane**：轻量级参数控制面板，用于动态调节视觉参数
+- **p5.js**：用于 Canvas 渲染、视频捕获与动画控制；
+- **OpenCV.js**：基于 OpenCV 提供实时计算机视觉处理功能；
+- **Tweakpane**：轻量级参数控制面板，用于动态调节视觉参数；
 
 ---
 
